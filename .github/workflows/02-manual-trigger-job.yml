@@ -17,6 +17,6 @@ jobs:
         creds: ${{secrets.AZURE_CREDENTIALS_NEW}}
     - name: Trigger Azure Machine Learning job
       run: |
-        az ml job create --file src/job.yml
+        az ml job create --file src/job.yml --resource-group mlops-RG --workspace-name mlops-AML-WS
 
 
