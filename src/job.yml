@@ -12,4 +12,4 @@ inputs:
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
 compute: azureml:jkncluster
 experiment_name: mlops-course-challenge-1
-description: self explanatory from experiiment name
+description: self explanatory from experiment name
