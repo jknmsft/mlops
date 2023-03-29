@@ -32,7 +32,7 @@ jobs:
         python-version: '3.8'
     - name: Install Packages
       run: |
-        pip install -r mlops/blob/main/requirements.txt
+        pip install -r requirements.txt
     - name: Run Pytest            
       run: |
         pytest tests/
